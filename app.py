@@ -172,6 +172,9 @@ def recent_checks():
     return jsonify(session.get("news_checks", []))  # Returns stored checks
 
 
+@app.route("/test")
+def test():
+    return "Hello Flask is working!"
 
 
 if __name__ == "__main__":
