@@ -129,7 +129,7 @@ def index():
 # Fake News Page Route
 @app.route("/FakeNews")
 def fake_news_page():
-    return render_template("FakeNews.html")
+    return render_template("worldnews.html")
 
 # News Checking Route
 @app.route('/check_news', methods=['POST'])
